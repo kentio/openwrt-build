@@ -1,0 +1,1 @@
+sed -i 's/192.168.1.1/10.0.1.0/g' openwrt/package/base-files/files/bin/config_generate
