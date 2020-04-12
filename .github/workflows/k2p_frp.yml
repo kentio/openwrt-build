@@ -1,12 +1,12 @@
-name: build_k2p
+name: build_k2p_frp
 
 on:
   release:
     types: [published]
 
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
 
   schedule:
     - cron: 5 6 * * 1
@@ -17,7 +17,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: 'k2p.config'
+  CONFIG_FILE: 'k2p_frp.config'
 
 
 jobs:
