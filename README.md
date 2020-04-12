@@ -18,3 +18,23 @@ make menuconfig
 - [OpenWrt/LEDE 编译小记（斐讯 K2P）](https://mary.kevinmx.tk/index.php/archives/k2p.html)
 - [openwrt-phicomm-k2p-build](https://github.com/KevinMX/openwrt-phicomm-k2p-build)
 - [AutoBuild-OpenWrt](https://github.com/esirplayground/AutoBuild-OpenWrt)
+
+```text
+luci-app-arpbind
+luci-app-autoreboot
+luci-app-ddns (including extra scripts)
+luci-app-firewall
+luci-app-flowoffload
+luci-app-ramfree
+luci-app-sqm
+luci-app-ssr-plus (v2ray+trojan+ShadowsocksR&server)
+---luci-app-v2ray-server
+luci-app-upnp
+---luci-app-vlmcsd (KMS Server)
+luci-app-wifischedule
+luci-app-wol (Wake on Lan)
+luci-theme-argon
+luci-app-zerotier
+ipv6helper
+wireless driver built-in
+```
