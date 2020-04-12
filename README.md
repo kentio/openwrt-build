@@ -1,6 +1,6 @@
 # openwrt
 
-![.github/workflows/op_k2p.yml](https://github.com/kentio/openwrt-build/workflows/.github/workflows/op_k2p.yml/badge.svg?branch=master)
+![](https://github.com/kentio/openwrt-build/workflows/build_k2p/badge.svg)
 
 - make defconfig
 - diffconfig.sh
