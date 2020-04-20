@@ -1,4 +1,4 @@
-name: build_k2p
+name: k2p
 
 on:
   release:
