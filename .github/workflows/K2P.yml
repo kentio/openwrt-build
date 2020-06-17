@@ -48,7 +48,7 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
-      - name: Configuration Customization - Build_k2p
+      - name: Configuration Customization - Build K2P
         run: |
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
           chmod +x ./customize.sh && ./customize.sh
